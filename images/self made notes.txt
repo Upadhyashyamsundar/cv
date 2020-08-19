@@ -1,0 +1,84 @@
+Web development self made notes....
+
+1)Section-1(Basics) {
+
+*<a>-Anchor tags are used to provide links which will highlight ur text in different color;
+*class-To style perticularly something in css which has a name and that same name can be used to more than one tags;
+*id-Same as class but it must be unique class is much preferable;
+
+}
+
+2)Section-2(Boxing model or Display property) {
+
+*In case of display in css there are 4 types:
+1)Block-Which takes the entire screen for operation
+Default Ex-1.Paragraph(<p>)
+           2.Headers(<h1>-<h6>)
+           3.Divisions(<div>)
+           4.List and list items(<ol>,<ul>,<li>)
+           5.Forms(<form>)
+
+2)Inline-Which takes only the element width for its operation
+Default EX-1.Spans(<Span>)------Which will used cut the perticular part of a text like in headers or in paragraph.
+           2.Images(<img>)
+           3.Anchors(<a>)
+
+3)InlineBlock-Same as inline but we can edit its dimesnions.
+
+4)None-Which removes the element totaly including its position.
+
+//div{
+
+  display:inline-block;
+  display:block;
+ }
+
+}
+
+3)Section 3(Positioning) {
+
+*Basically 4 types 
+1)Static:THis is default positioning given by default css.
+
+2)Realtive:User can change the static positioning by changing its position tag from static to relative in css it doesnot effect the positioning of other elements.
+  *Attributes used in relative positiong are
+    >Top-Takes that element downwards of given px(Pixels).
+    >Bottom-Takes that element upwards.......
+    >left-Takes that element to right........
+    >Right-Takes that element to left........
+Ex:div{
+   position:relative;
+   left:100px;
+   right:200px;
+  }
+
+3)Absolute:User can change the static positioning by changing its position tag from static to relative in css but it effects the positioning of other elements by considering that this element is deleted.
+   *Attributes used in relative positiong are
+    >Top-Takes that element downwards of given px(Pixels).
+    >Bottom-Takes that element upwards.......
+    >left-Takes that element to right........
+    >Right-Takes that element to left........
+
+Ex:div{
+
+  background-color:yellow;
+  width: 100px;
+  height:100px;
+  position:absolute;
+  left:100px;
+  top:100px;
+ }
+
+4)Fixed:By using this the element always stays at the fixed position irrespective of the postion of other elements.
+
+}
+
+
+
+
+
+
+
+
+
+
